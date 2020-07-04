@@ -25,6 +25,7 @@ class Quiz extends Component {
         this.setState({
             quiz_position: this.state.quiz_position + 1
         });
+        console.log(this.state.quiz_position);
     };
 }
 
